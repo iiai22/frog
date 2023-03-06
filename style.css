@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  position: absolute;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+  text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+button {
+  color: white;
+  background: rgba(255, 255, 255, 0.207);
+  border: none;
+  transition: 0.5s;
+  height: 30px;
+  width: 50px;
+  border-radius: 10px;
+}
+button:hover {
+  letter-spacing: 2px;
+  width: 60px;
+  background: rgba(255, 255, 255, 0.511);
+}
+
+textarea {
+  background: rgba(255, 255, 255, 0.064);
+  border: none;
+  color: white;
+  resize: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+
+.container {
+  margin: 5vh;
+}
+
+textarea::-webkit-scrollbar {
+  background: rgba(255, 255, 255, 0.064);
+  border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.207);
+  border-radius: 10px;
+}
